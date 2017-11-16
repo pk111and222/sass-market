@@ -1,0 +1,7 @@
+// 如果你需要清楚所有默认样式，可以调用reset-global
+// 如果你需要在某个区块内清楚默认样式，可以调用reset-nested
+// 如果你只需要为某类元素重置，可以使用reset-display函数
+@import "reset";
+
+// 如果你需要重置基本样式以此来抹平html5的差异同时使浏览器之前的内容一致，可以使用normalize函数
+@import "normalize";
