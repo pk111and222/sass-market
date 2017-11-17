@@ -3,5 +3,5 @@
 // 如果你只需要为某类元素重置，可以使用reset-display函数
 @import "reset";
 
-// 如果你需要重置基本样式以此来抹平html5的差异同时使浏览器之前的内容一致，可以使用normalize函数
+// 如果你不需要重置基本样式，只是需要清除各个浏览器之间的bug同时添加符合h5标准的标签，可以使用调用normalize-global
 @import "normalize";
